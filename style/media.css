@@ -252,6 +252,7 @@
 
     .modal_left_sale .modal_sale h3 {
         font-size: 30px;
+        margin-bottom:-5px;
     }
 
     .modal_left_sale .modal_sale .count_sale p {
@@ -269,8 +270,8 @@
     }
 
     .modal-content .close {
-        top: -430px;
-        left: 0px;
+        top: -435px;
+        left: 25px;
     }
 
     .modal-header .modal-title {
@@ -279,6 +280,10 @@
 
     .modal-header {
         margin-bottom: 0px;
+    }
+    .d-none_sm{
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }
 
