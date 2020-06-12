@@ -43,6 +43,7 @@ $(document).ready(function () {
     $(".forgot_title").removeClass("d-none");
     $("#exampleModalLabel").text("Forgot your password ?");
     $(".modal-header").addClass("mb-0");
+    $("#needs-validation").removeClass("was-validated");
   });
 
   $(".sign_up_modal").click(function () {
@@ -50,6 +51,7 @@ $(document).ready(function () {
     $(".block_forgot").addClass("d-none");
     $("#exampleModalLabel").text("Sign Up");
     $(".sign_up, .modal_button_none").removeClass("d-none");
+    $("#needs-validation").removeClass("was-validated");
 
 
 
@@ -60,6 +62,7 @@ $(document).ready(function () {
     $("#exampleModalLabel").text("Sign Up");
     $(".modal-header").addClass("mb-0");
     $(".forgot_title").addClass("d-none");
+    $("#needs-validation").removeClass("was-validated");
   })
   $("#sign_in").click(function () {
     $(".sign_in").removeClass("d-none");
@@ -67,6 +70,7 @@ $(document).ready(function () {
     $("#exampleModalLabel").text("Sign In");
     $(".modal-header").addClass("mb-2");
     $(".form-row, .modal_button_none").removeClass("d-none");
+    $("#needs-validation").removeClass("was-validated");
 
   });
 
@@ -78,6 +82,7 @@ $(document).ready(function () {
       $(".sign_in").removeClass("d-none");
       $("#exampleModalLabel").text("Sign In");
       $(".forgot_title").addClass("d-none");
+      $("#needs-validation").removeClass("was-validated");
 
 
     }, 900)

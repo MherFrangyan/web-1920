@@ -799,7 +799,9 @@ button:active {
     transform: translateY(-2px);
     display: block;
 }
-
+.form-control:focus{
+    background-color: #E6E6E6;
+}
 .modal-content input:focus-visible,
 input:focus {
     background: #E6E6E6;
