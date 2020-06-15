@@ -249,7 +249,9 @@
     .slick-prev {
         left: -230px;
     }
-
+    .modal-lg {
+        margin-top: 5vh;
+    }
     .modal_left_sale .modal_sale h3 {
         font-size: 30px;
         margin-bottom:-5px;
@@ -568,8 +570,8 @@
 
     }
 
-    .modal {
-        margin-top: 50px;
+    .modal-lg {
+        margin-top: 20vh;
     }
 
     .d-none_sm {
